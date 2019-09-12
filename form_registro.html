@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registrarse</title>
+  </head>
+  <body>
+    <content class="main-content">
+
+      <div class="title-des">
+        <h1 id="main-title">Creá tu cuenta</h1>
+        <h2 id="description-title">Completa tus datos a continuación para poder crear tu cuenta:<br></h2>
+      </div>
+
+      <img id="nadal" src="http://kiaausopen.mx/images/kiaausopen_player_01.png" alt="Rafael Nadal">
+
+      <div class="main-form">
+        <form class="register" action="register-ok.html" method="post">
+          <p>
+            <label for="user-name">Nombre<br></label>
+            <input type="text" name="user-name" placeholder="Juan" id="user-name" required>
+          </p>
+          <p>
+            <label for="user-lastname">Apellido<br></label>
+            <input type="text" name="user-lastname" placeholder="Perez" id="user-lastname" required>
+          </p>
+
+          <p>
+            <label for="email">Email<br></label>
+            <input type="email" name="email" placeholder="juanperez@mail.com" id="email" required>
+          </p>
+
+          <p>
+            <label for="telephone">Teléfono<br></label>
+            <input type="tel" name="telephone" placeholder="1155774332" id="telephone" required>
+          </p>
+
+          <p>
+            <label for="city">Ciudad<br></label>
+            <input type="city" name="city" placeholder="Capital Federal" id="city" required>
+          </p>
+        </form>
+      </div>
+
+      <p>
+        <input type="submit" name="new-account" value="Crear cuenta" id="new-account"></input>
+      </p>
+
+      <p>
+        <input type="text" name="facebook" value="Ingresar con Facebook" id="facebook"></input>
+      </p>
+
+      <p>
+        <input type="text" name="google" value="Ingresar con Google" id="google"></input>
+      </p>
+    </content>
+
+  </body>
+</html>
