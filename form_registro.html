@@ -3,58 +3,91 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-    <title>Registrarse</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Crear cuenta</title>
   </head>
   <body>
-    <content class="main-content">
+        <content class="main-content">
+          <div class="title-des">
+            <h1 id="main-title">Creá tu cuenta</h1>
+            <h2 id="description-title">Completa tus datos a continuación para poder crear tu cuenta:</h2>
+          </div>
 
-      <div class="title-des">
-        <h1 id="main-title">Creá tu cuenta</h1>
-        <h2 id="description-title">Completa tus datos a continuación para poder crear tu cuenta:<br></h2>
+          <div class="main-form">
+            <form>
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Juan Martín">
+              </div>
+
+              <div class="form-group">
+                <label for="lastname">Apellido</label>
+                <input type="lastname" class="form-control" id="lastname" aria-describedby="lastnameHelp" placeholder="Del Potro">
+              </div>
+
+              <div class="form-group">
+                <label for="mail">Email</label>
+                <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="jmdelpotro@mail.com">
+              </div>
+
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password">
+                <label class="form-check-label" for="text"> <a href="#">Olvidé mi contraseña</a></label>
+              </div>
+
+              <div class="form-group">
+                <label for="telephone">Teléfono</label>
+                <input type="telephone" class="form-control" id="telephone" aria-describedby="telephoneHelp" placeholder="1166543322">
+                <small id="telephoneHelp" class="form-text text-muted">Sin 0 y sin 15 para celulares</small>
+              </div>
+
+              <div class="form-group">
+                <label for="inputCity">Ciudad</label>
+                <select id="inputCity" class="form-control">
+                  <option selected>Seleccioná una opción</option>
+                  <option>Capital Federal</option>
+                  <option>Córdoba</option>
+                  <option>GBA Gran Buenos Aires</option>
+                  <option>Santa Fe</option>
+                </select>
+              </div>
+
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Recordar mi usuario</label>
+              </div>
+
+              <div>
+                <button type="button" class="btn btn-dark btn-block">Crear cuenta</button>
+              </div>
+
+              <div>
+                <button type="button" class="btn btn-light btn-block">Ingresar con Google</button>
+              </div>
+
+              <div>
+                <button type="button" class="btn btn-primary btn-block">Ingresar con Google</button>
+              </div>
+
+            </form>
+
+          </div>
+
+          <p id="current-id">
+            ¿Ya tenés cuenta? <button type="button" class="btn btn-link">Iniciá sesión</button>
+          </p>
+
+        <img id="nadal" src="http://kiaausopen.mx/images/kiaausopen_player_01.png" alt="Rafael Nadal">
+        </content>
       </div>
+    </div>
 
-      <img id="nadal" src="http://kiaausopen.mx/images/kiaausopen_player_01.png" alt="Rafael Nadal">
+    <div class="container">
+      <div class="row">
 
-      <div class="main-form">
-        <form class="register" action="register-ok.html" method="GET">
-          <p>
-            <label for="user-name">Nombre<br></label>
-            <input type="text" name="user-name" placeholder="Juan" id="user-name" required>
-          </p>
-          <p>
-            <label for="user-lastname">Apellido<br></label>
-            <input type="text" name="user-lastname" placeholder="Perez" id="user-lastname" required>
-          </p>
-
-          <p>
-            <label for="email">Email<br></label>
-            <input type="email" name="email" placeholder="juanperez@mail.com" id="email" required>
-          </p>
-
-          <p>
-            <label for="telephone">Teléfono<br></label>
-            <input type="tel" name="telephone" placeholder="1155774332" id="telephone" required>
-          </p>
-
-          <p>
-            <label for="city">Ciudad<br></label>
-            <input type="city" name="city" placeholder="Capital Federal" id="city" required>
-          </p>
-        </form>
       </div>
-
-      <p>
-        <input type="submit" name="new-account" value="Crear cuenta" id="new-account"></input>
-      </p>
-
-      <p>
-        <input type="text" name="facebook" value="Ingresar con Facebook" id="facebook"></input>
-      </p>
-
-      <p>
-        <input type="text" name="google" value="Ingresar con Google" id="google"></input>
-      </p>
-    </content>
+    </div>
 
   </body>
 </html>
