@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Mi perfil</title>
+  </head>
+  <body>
+        <content class="main-content">
+          <div class="title-des">
+            <h1 id="main-title">Mi perfil</h1>
+          </div>
+
+          <div class="main-form">
+              <form action="" method="POST" enctype="multipart/form-data">
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Juan Martín">
+              </div>
+              <div>
+                <label for="lastname">Apellido</label>
+                <input type="lastname" class="form-control" id="lastname" aria-describedby="lastnameHelp" placeholder="Del Potro">
+              </div>
+
+              <fieldset disabled>
+                <div class="email">
+                  <label for="mailDisabled">Email</label>
+                  <input type="text" id="mailDisabled" class="form-control" placeholder="@mail de registro">
+                </div>
+              </fieldset>
+
+              <div class="avatar">
+                <label for="uploadAvatar">Foto de perfil</label>
+                <input type="file" class="form-control-file" id="uploadAvatar">
+                <small id="uploadAvatar" class="form-text text-muted">No debe pesar más de 20mb, en formato .jpg, .jpeg, .png <br></small>
+              </div>
+
+              <div class="buttons">
+                <button type="button" class="btn btn-dark btn-block">Guardar cambios</button>
+                <button type="button" class="btn btn-outline-danger btn-block">Eliminar cuenta</button>
+              </div>
+            </form>
+          </div>
+
+  </body>
+</html>

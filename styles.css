@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-image: url(https://images5.alphacoders.com/816/816149.jpg);
+  background-size: cover;
 }
 
 #nadal {
@@ -12,22 +13,23 @@ body {
 
 #main-title {
   color: blue;
+  margin-bottom: 20px;
+  margin-top: 25px;
 }
 
 #description-title {
-  font-size: 0.9em;
+  font-size: 1em;
   color: black;
   font-weight: 300;
   letter-spacing: inherit;
-  width: 200px;
   margin-bottom: 20px;
 }
 
 .main-content {
-  padding: 25px 50px;
+  padding: 25px 30px;
   margin: 0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   background-color: white;
   height: 40%;
   width: 40%;
@@ -62,6 +64,24 @@ div .button {
   margin-top: 20px;
   margin: 20px;
 }
+
+.avatar {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#social-button {
+  margin-right: 50px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
 
 /*
 background-color: black;
