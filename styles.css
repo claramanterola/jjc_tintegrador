@@ -4,10 +4,10 @@ body {
 }
 
 #nadal {
-  display: block;
+  display: inline-block;
   position: relative;
   height: 300px;
-  left: 30%;
+  left: 40%;
 }
 
 #main-title {
@@ -26,6 +26,8 @@ body {
 .main-content {
   padding: 25px 50px;
   margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
   background-color: white;
   height: 40%;
   width: 40%;
@@ -40,24 +42,41 @@ p {
   margin-bottom: 10px;
 }
 
+#form-field {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 p .value {
   padding: 5px 10px;
   margin: 5px;
 }
 
-#new-account {
-  background-color: black;
-  font-size: 0.8em;
-  letter-spacing: 0.2em;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  text-transform: uppercase;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  width: 173px;
+.linked {
+  color: blue;
+  font-size: 12px;
+  text-align: right;
 }
+
+div .button {
+  margin-top: 20px;
+  margin: 20px;
+}
+
+/*
+background-color: black;
+font-size: 0.8em;
+letter-spacing: 0.2em;
+color: white;
+padding: 10px 15px;
+border: none;
+text-transform: uppercase;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 173px;
+*/
+
+
 
 #facebook {
   background-color: blue;
@@ -77,4 +96,22 @@ p .value {
   border: none;
   width: 173px;
   text-align: center;
+}
+
+#current-id {
+  margin-top: 20px;
+}
+
+#main-button {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 173px;
 }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Iniciá sesión</title>
+  </head>
+  <body>
+    <content class="main-content">
+
+      <div class="title-des">
+        <h1 id="main-title">Ingresá a tu cuenta</h1>
+        <h2 id="description-title">Completa tus datos a continuación para poder ingresar a tu cuenta:<br></h2>
+      </div>
+
+      <div class="main-form">
+        <form class="register" action="login-ok.html" method="GET">
+          <p id="form-field">
+            <label for="email">Email<br></label>
+            <input type="email" name="email" placeholder="juanperez@mail.com" id="email" required>
+          </p>
+          <a href="form_login.html" class="linked">Olvidé mi contraseña</a>
+
+          <p id="form-field">
+            <label for="password">Contraseña<br></label>
+            <input type="password" name="password" id="password" required>
+          </p>
+        </form>
+      </div>
+
+      <p id="form-field">
+        <input type="submit" name="sign-in" value="Ingresar" id="sign-in"></input>
+      </p>
+
+      <button id="main-button" type="button" name="button">ENVIAR</button>
+
+      <p id="current-id">
+        ¿Aún no tenés cuenta? <br> <a href="form_register.html" class="linked">Iniciá sesión</a>
+      </p>
+
+    <img id="nadal" src="http://kiaausopen.mx/images/kiaausopen_player_01.png" alt="Rafael Nadal">
+    </content>
+  </body>
+</html>
