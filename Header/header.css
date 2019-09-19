@@ -1,0 +1,15 @@
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+header{
+  background-color: #2f3640;
+  color: #f5f6fa;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+header img{
+  width: 100%;
+}
