@@ -2,44 +2,56 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href= "styles/img1.png" class="next-head">
     <title>Iniciá sesión</title>
   </head>
-  <body>
+  <body id="formsbody">
     <content class="main-content">
+      <!--INTRO-->
+      <div class="col-form">
+        <div class="title-des">
+          <h1 id="main-title">Ingresá a tu cuenta</h1>
+          <h2 id="description-title">Completa tus datos a continuación para poder ingresar a tu cuenta:<br></h2>
+        </div>
 
-      <div class="title-des">
-        <h1 id="main-title">Ingresá a tu cuenta</h1>
-        <h2 id="description-title">Completa tus datos a continuación para poder ingresar a tu cuenta:<br></h2>
-      </div>
-
-      <div class="main-form">
-        <form class="register" action="login-ok.html" method="GET">
-          <p id="form-field">
-            <label for="email">Email<br></label>
-            <input type="email" name="email" placeholder="juanperez@mail.com" id="email" required>
-          </p>
-          <a href="form_login.html" class="linked">Olvidé mi contraseña</a>
-
-          <p id="form-field">
-            <label for="password">Contraseña<br></label>
-            <input type="password" name="password" id="password" required>
-          </p>
+        <!--FORM-->
+        <!--Usuario-->
+        <div class="main-form">
+          <form>
+            <div class="form-group">
+              <label for="name">Usuario</label>
+              <input type="text" class="form-control" id="user">
+            </div>
+        <!--Password-->
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password">
+          <label class="form-check-label" for="text"> <a href="#">Olvidé mi contraseña</a></label>
+        </div>
+        <!--Recordar usuario-->
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Recordar mi usuario</label>
+        </div>
+        </div>
+        <div id="create">
+          <button type="button" class="btn btn-dark btn-block">Ingresar</button>
+        </div>
         </form>
-      </div>
+        <p id="current-id">
+          <h3 id="description-title">¿Aún no tenés cuenta?</h3>
+          <button type="button" class="btn btn-link">Creá tu usuario</button>
+        </p>
+    </div>
+    <!--TERMINA EL FORMULARIO-->
 
-      <p id="form-field">
-        <input type="submit" name="sign-in" value="Ingresar" id="sign-in"></input>
-      </p>
+  <!--Imagen de Nadal-->
+  <div class="nadal">
+    <img src="http://kiaausopen.mx/images/kiaausopen_player_01.png" alt="Rafael Nadal">
+  </div>
 
-      <button id="main-button" type="button" name="button">ENVIAR</button>
-
-      <p id="current-id">
-        ¿Aún no tenés cuenta? <br> <a href="form_registro.html" class="linked">Iniciá sesión</a>
-      </p>
-
-    <img id="nadal" src="http://kiaausopen.mx/images/kiaausopen_player_01.png" alt="Rafael Nadal">
     </content>
   </body>
 </html>

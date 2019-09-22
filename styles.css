@@ -1,6 +1,6 @@
 /*headercss*/
 #principal body {
-  background-image: url("https://images5.alphacoders.com/816/816149.jpg");
+  background-image: url(https://sportsbetmagazine.com/wp-content/uploads/2017/08/tennis.jpg);
   background-size: cover;
 }
 
@@ -179,7 +179,47 @@ width: 173px;
   letter-spacing: 0.5px;
 }
 
+#introfoto{
+  background-image : url("Wilson_blade.jpg");
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+}
+.btn-introtexto{
 
+
+}
+
+.introtexto{
+
+
+}
+
+.elementostexto {
+    position: absolute;
+    right: 75%;
+    top: 21%;
+    width: 300px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 30px;
+
+
+/*FAQ*/
+#faqbody {
+  background-image: url(http://www.whblisshotel.com/en/pic/gif/1438223709.jpg);
+  background-size: cover;
+}
+.panel-body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+}
+
+.panel {
+  border-bottom: solid 1px grey;
+}
+.collapse {
+  text-decoration: none;
+}
 
 
 
@@ -190,4 +230,3 @@ width: 173px;
 
 
 @media screen and (min-width: 768px) {
-  

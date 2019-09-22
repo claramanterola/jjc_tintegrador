@@ -2,17 +2,27 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href= "styles/img1.png" class="next-head">
     <title>Crear cuenta</title>
   </head>
-  <body>
-        <content class="main-content">
+  <body id="formsbody">
+    <content class="main-content">
+      <div class="container">
+    <!--INTRO-->
           <div class="title-des">
             <h1 id="main-title">Creá tu cuenta</h1>
             <h2 id="description-title">Completa tus datos a continuación para poder crear tu cuenta:</h2>
           </div>
 
+    <!--BUTTONS-->
+          <div id="social-button">
+            <button type="button" class="btn google">Ingresar con Google</button>
+            <button type="button" class="btn facebook">Ingresar con Facebook</button>
+          </div>
+
+    <!--FORM-->
           <div class="main-form">
             <form>
               <div class="form-group">
@@ -33,7 +43,6 @@
               <div class="form-group">
                 <label for="password">Password</label>
                 <input type="password" class="form-control" id="password">
-                <label class="form-check-label" for="text"> <a href="#">Olvidé mi contraseña</a></label>
               </div>
 
               <div class="form-group">
@@ -53,35 +62,28 @@
                 </select>
               </div>
 
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Recordar mi usuario</label>
-              </div>
-
               <div id="create">
                 <button type="button" class="btn btn-dark btn-block">Crear cuenta</button>
               </div>
 
-              <div id="social-button">
-                <button type="button" class="btn btn-light">Ingresar con Google</button>
-                <button type="button" class="btn btn-primary">Ingresar con Facebook</button>
-              </div>
-
             </form>
-
           </div>
 
+
+        <!--LOGIN EXISTING ACCOUNT-->
           <p id="current-id">
-            <h3 id="description-title">¿Ya tenés cuenta?</h3><button type="button" class="btn btn-link">Iniciá sesión</button>
+            <h3 id="description-title">¿Ya tenés cuenta?</h3>
+            <button type="button" class="btn btn-link">Iniciá sesión</button>
           </p>
+
+      <!--ESTE DIV CIERRA EL CONTAINER-FLUID-->
+          </div>
 
         <img id="nadal" src="http://kiaausopen.mx/images/kiaausopen_player_01.png" alt="Rafael Nadal">
         </content>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
 
       </div>
     </div>
