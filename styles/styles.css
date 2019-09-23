@@ -5,27 +5,22 @@
 }
 
 /*formularios*/
-body {
+#formsbody {
   font-family: 'Roboto', sans-serif;
   background-image: url(https://images5.alphacoders.com/816/816149.jpg);
+  background-repeat: repeat;
   background-size: cover;
 }
 
-#nadal {
-  display: inline-block;
-  position: relative;
-  height: 300px;
-  left: 40%;
-}
+
 
 #main-title {
   color: blue;
-  margin-bottom: 20px;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 #description-title {
-  font-size: 1em;
+  font-size: 0.9em;
   color: black;
   font-weight: 300;
   letter-spacing: inherit;
@@ -33,10 +28,10 @@ body {
 }
 
 .main-content {
-  padding: 25px 30px;
+  padding: 20px;
   margin: 0 auto;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-top: 20px;
   background-color: white;
   height: 40%;
   width: 40%;
@@ -44,16 +39,20 @@ body {
   display: block;
   border-radius: 5px;
 }
+.col-form {
+  display: inline-flex;
+}
 
+/*Reparar demas p que no sean clari's p
 p {
-  font-size: 0.8em;
+  font-size: 1.1em;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+*/
 
 #form-field {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px 0px 15px 0px;
 }
 
 p .value {
@@ -67,81 +66,75 @@ p .value {
   text-align: right;
 }
 
-div .button {
-  margin-top: 20px;
-  margin: 20px;
-}
+
 
 .avatar {
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin: 30px 0px 20px 0px;
 }
 
-.buttons {
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
 
+
+/*BUTTONS*/
 #social-button {
-  margin-right: 50px;
-  margin-top: 20px;
-  width: 100%;
+  margin: 20px 0px 20px 0px;
 }
-
-
-
-/*
-background-color: black;
-font-size: 0.8em;
-letter-spacing: 0.2em;
-color: white;
-padding: 10px 15px;
-border: none;
-text-transform: uppercase;
-margin-top: 10px;
-margin-bottom: 10px;
-width: 173px;
-*/
-
-
-
-#facebook {
-  background-color: blue;
-  font-size: 0.8em;
-  color: white;
-  padding: 10px 0px;
-  border: none;
-  width: 173px;
-  text-align: center;
-}
-
-#google {
-  background-color: #E8E8E8;
-  font-size: 0.8em;
-  color: black;
-  padding: 10px 0px;
-  border: none;
-  width: 173px;
-  text-align: center;
-}
-
-#current-id {
-  margin-top: 20px;
-}
-
-#main-button {
+.btn {
   font-family: 'Roboto', sans-serif;
-  background-color: black;
   font-size: 0.8em;
   letter-spacing: 0.2em;
-  color: white;
   padding: 10px 15px;
   border: none;
   text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 173px;
+  margin: 10px 25px 10px 0px;
+  width: 100%;
+  }
+​
+.btn:hover {
+    box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
 }
+​
+.btn-main-azul {
+    background-color: #4267B2;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    color: #FFFFFF !important;
+    padding: 10px 0px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 3px;
+  }
+​
+.google {
+    background-color: #DFDFDF;
+    font-size: 0.8em;
+    color: black;
+    padding: 10px 0px;
+    border: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #current-id {
+    margin-top: 20px;
+    font-size: 1em;
+    border-top: solid 1px grey;
+    padding-top: 25px;
+  }
+
+  #main-button {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    text-transform: uppercase;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+  }
 /*Card*/
 ::selection {
   background: #6A11EA;
@@ -221,12 +214,54 @@ width: 173px;
   text-decoration: none;
 }
 
-
+/*RaquetasBabolat*/
+p#precio  {
+  font-size: 90px;
+}
 
 
 
 /*mediaqueries*/
-@media screen and (min-width: 460px) {
+​
+@media screen (max-width: 360px) {
+  .main-content {
+  padding: 20px;
+  margin: 0 auto;
+  background-color: white;
+  width: 100%;
+  box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
+  border-radius: 5px;
+}
+​
+​
+@media screen (min-width: 360px) and (max-width: 768px) {
+  .main-content {
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  background-color: white;
+  height: 40%;
+  width: 90%;
+  box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
+  border-radius: 5px;
+}
+​
+​
 
-
+​
 @media screen and (min-width: 768px) {
+​
+  .main-content {
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  background-color: white;
+  height: 40%;
+  width: 80%;
+  box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
+  display: block;
+  border-radius: 5px;
+​
+}
