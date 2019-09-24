@@ -198,9 +198,14 @@ p .value {
 
 
 /*FAQ*/
+
+
+
+}
 #faqbody {
   background-image: url(http://www.whblisshotel.com/en/pic/gif/1438223709.jpg);
   background-size: cover;
+
 }
 .panel-body {
   font-family: 'Roboto', sans-serif;
