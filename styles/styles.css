@@ -141,27 +141,7 @@ p .value {
   color: white;
 }
 
-.btn-primary {
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 14px 20px;
-  letter-spacing: 0.5px;
-  font-weight: bold;
-  border: 0;
-}
 
-.btn:hover {
-  box-shadow: 0 2px 4px rgba(0,0,0,.2);
-}
-
-.btn-primary {
-  background-color: black;
-  color: white;
-}
-
-.btn-primary:hover {
-  background: green;
-}
 
 .badge-use-case {
   background: rgba(0, 0, 0, 0.2);
@@ -193,9 +173,11 @@ p .value {
     right: 75%;
     top: 21%;
     width: 300px;
-    background-color: rgba(255,255,255,0.5);
+    height: 40vh;
+    background-color: rgba(255,255,255,0.0);
     padding: 30px;
-
+    color: white;
+    text-align: center;
 
 /*FAQ*/
 
@@ -236,6 +218,20 @@ p#precio  {
   width: 100%;
   box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
   border-radius: 5px;
+  .elementostexto{
+    display:none;
+  }
+  #introfoto{
+    visibility: hidden;
+    display: none;
+  }
+  }
+  .elementostexto{
+    display:none;
+  }
+  .elementostexto{
+    visibility: hidden;
+  }
 }
 ​
 ​
@@ -252,8 +248,17 @@ p#precio  {
   border-radius: 5px;
 }
 ​
-​
-
+​.elementostexto{
+  display:none;
+}
+.elementostexto{
+  visibility: hidden;
+}
+#introfoto{
+  visibility: hidden;
+  display: none;
+}
+}
 ​
 @media screen and (min-width: 768px) {
 ​
@@ -269,4 +274,15 @@ p#precio  {
   display: block;
   border-radius: 5px;
 ​
+}
+.elementostexto{
+  display:none;
+}
+.elementostexto{
+  visibility: hidden;
+}
+#introfoto{
+  visibility: hidden;
+  display: none;
+}
 }
