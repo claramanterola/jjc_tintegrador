@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/stylesClara.css">
     <link rel="shortcut icon" href= "img/img1.png" class="next-head">
     <title>Iniciá sesión</title>
   </head>
@@ -94,7 +94,7 @@
 
         <!--TITULO, DESCRIPCION Y FORMULARIO-->
         <div class="title-des">
-          <h1 id="main-title">Ingresá a tu cuenta</h1>
+          <h1 id="main-title_form">Ingresá a tu cuenta</h1>
           <h2 id="description-title">Completa tus datos a continuación para poder ingresar a tu cuenta:<br></h2>
         </div>
 
@@ -119,11 +119,14 @@
           </div>
         </div>
         <div id="create">
-          <button type="button" class="btn btn-dark create">Ingresar</button>
+          <button type="button" id="main-button-black"> <a href="form_login.html">Ingresar</a></button>
         </div>
         </form>
-        <p id="current-id">¿Aún no tenés cuenta?</p>
-            <button type="button" class="btn btn-main-azul">Creá tu usuario</button>
+        <div class="new-user">
+          <p id="current-id">¿Aún no tenés cuenta?</p>
+          <button type="button" id="main-button-black"> <a href="form_registro.html">Creá tu usuario</a></button>  
+        </div>
+        
     </div>
     </container>
     <!--A C Á   T E R M I N A   E L   F O R M U L A R I O-->
