@@ -20,6 +20,8 @@
      ?>
    </div>
 
+    <main>
+
    <!-- Imagen Intro -->
    <div id="introfoto">
 
@@ -29,7 +31,6 @@
      </div>
    </div>
 
-   <main>
 
       <section id="use-cases" class="py-4 my-4">
         <div class="container">
@@ -40,7 +41,7 @@
                 <div class="card-body">
                  <h5 class="card-title">RAQUETAS</h5>
                  <p class="card-text">Tenemos lo ultima de las mejores marcas.</p>
-                 <a href="../raquetas.html" class="btn btn-primary">Ver Más</a>
+                 <a href="../raquetas.php" class="btn btn-primary">Ver Más</a>
                 </div>
               </div>
              </div>
@@ -50,7 +51,7 @@
                 <div class="card-body">
                  <h5 class="card-title">PELOTAS</h5>
                  <p class="card-text">La mejor variedad de pelotas y precios.</p>
-                 <a href="../pelotas.html" class="btn btn-primary">Ver Más</a>
+                 <a href="../pelotas.php" class="btn btn-primary">Ver Más</a>
                 </div>
                </div>
             </div>
@@ -60,7 +61,7 @@
                 <div class="card-body">
                  <h5 class="card-title">CUERDAS</h5>
                  <p class="card-text">Las mejores cuerdas del mercado a los mejores precios.</p>
-                 <a href="../cuerdas.html" class="btn btn-primary">Ver Más</a>
+                 <a href="../cuerdas.php" class="btn btn-primary">Ver Más</a>
                </div>
               </div>
             </div>
@@ -70,7 +71,7 @@
                 <div class="card-body">
                  <h5 class="card-title">BOLSOS</h5>
                  <p class="card-text">Todos los tamaños (X3,X6,X12)</p>
-                 <a href="../bolsos.html" class="btn btn-primary">Ver Más</a>
+                 <a href="../bolsos.php" class="btn btn-primary">Ver Más</a>
                </div>
              </div>
             </div>
@@ -80,7 +81,7 @@
                 <div class="card-body">
                  <h5 class="card-title">ACCESORIOS</h5>
                  <p class="card-text">Todo lo que necesitas para jugar.</p>
-                 <a href="../accesorios.html" class="btn btn-primary">Ver Más</a>
+                 <a href="../accesorios.php" class="btn btn-primary">Ver Más</a>
                </div>
              </div>
            </div>
@@ -90,7 +91,7 @@
                <div class="card-body">
                  <h5 class="card-title">PROMOS</h5>
                  <p class="card-text">Aprovecha nuestras ofertas.</p>
-                 <a href="../promociones.html" class="btn btn-primary">Ver Más</a>
+                 <a href="../promociones.php" class="btn btn-primary">Ver Más</a>
                </div>
              </div>
            </div>

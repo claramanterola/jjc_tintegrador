@@ -26,7 +26,7 @@
       <div class="row">
 
         <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-          <div class="card" style="">
+          <div class="card" >
             <img src="https://www.tennisplaza.com/prodimages/24966-DEFAULT-m.jpg"class="card-img-top" alt="Babolatbolso">
             <div class="card-body">
               <h5 class="card-title">Babolat</h5>
@@ -49,7 +49,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-          <div class="card" style="">
+          <div class="card">
             <img src="https://www.tennisplaza.com/prodimages/26321-DEFAULT-s.jpg"class="card-img-top" alt="Tecnifibrebolso">
             <div class="card-body">
               <h5 class="card-title">Tecnifibre</h5>
@@ -72,7 +72,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-          <div class="card" style="">
+          <div class="card">
             <img src="https://www.tennisplaza.com/prodimages/27360-DEFAULT-s.jpg"class="card-img-top" alt="Headbolso">
             <div class="card-body">
               <h5 class="card-title">Head</h5>
@@ -95,7 +95,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-          <div class="card" style="">
+          <div class="card">
             <img src="https://www.tennisplaza.com/prodimages/24164-DEFAULT-m.jpg"class="card-img-top" alt="Wilsonbolso">
             <div class="card-body">
               <h5 class="card-title">Wilson</h5>
@@ -118,7 +118,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-          <div class="card" style="">
+          <div class="card">
             <img src="https://www.tennisplaza.com/prodimages/22526-DEFAULT-m.jpg"class="card-img-top" alt="Yonexbolso">
             <div class="card-body">
               <h5 class="card-title">Yonex</h5>
@@ -141,7 +141,7 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-          <div class="card" style="">
+          <div class="card">
             <img src= "https://www.tennisplaza.com/prodimages/26319-DEFAULT-m.jpg"class="card-img-top" alt="PromoBolsos">
             <div class="card-body">
               <h5 class="card-title">Promociones</h5>
