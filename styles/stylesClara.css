@@ -44,7 +44,7 @@
 
 
 .nav-item {
-  font-family: 'Staatliches', cursive, sans-serif;
+  font-family: 'Staatliches', sans-serif;
   font-size: 1.1em;
   padding-right: 30px;
   font-weight: 300;
@@ -78,14 +78,35 @@ a::hover {
   background-size: cover;
 }
 
+.form-group {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.form-check-label a {
+  color: #4267B2;
+  margin-top: 20px;
+}
+
+.form-check {
+  padding-left: 40px;
+}
+
+.new-user {
+  margin-top: 40px;
+  border-top: solid 1px grey;
+  padding-top: 20px;
+}
 
 
 /* -------------- TITLES AND DESCRIPTIONS -------------- */
 
 #main-title, #categories {
   color: black;
-  margin-top: 60px;
-  font-family: 'Staatliches', cursive, sans-serif;
+  margin-top: 0px;
+  font-family: 'Staatliches', sans-serif;
   text-transform: uppercase;
   font-size: 4em;
   margin-bottom: 30px;
@@ -97,10 +118,12 @@ a::hover {
   font-weight: 300;
   letter-spacing: inherit;
   margin-bottom: 20px;
+  padding-left: 20px;
 }
 
-.main-content {
-  padding: 20px;
+
+#main-content {
+  padding: 40px;
   margin: 0 auto;
   margin-bottom: 40px;
   margin-top: 20px;
@@ -111,6 +134,17 @@ a::hover {
   display: block;
   border-radius: 5px;
 }
+
+#main-title_form {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 3em;
+  padding-left: 20px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+}
+
 
 .col-form {
   display: inline-flex;
@@ -192,13 +226,15 @@ p .value {
 
 #current-id {
   margin-top: 20px;
+  margin-left: 20px;
   font-size: 1em;
-  border-top: solid 1px grey;
   padding-top: 25px;
+  display: inline;
+  margin-right: 50px;
 }
 
 #main-button {
-  font-family: 'Staatliches', cursive, sans-serif;
+  font-family: 'Staatliches', sans-serif;
   background-color: #fff;
   font-size: 1em;
   letter-spacing: 0.2em;
@@ -212,6 +248,22 @@ p .value {
   border: none;
 }
 
+#main-button-black {
+  font-family: 'Staatliches', sans-serif;
+  background-color: #000;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: none;
+  text-transform: uppercase;
+  text-decoration: inherit;
+  margin: 10px 0px 10px 0px;
+  width: 300px;
+  border: none;
+}
+
+
 #main-button::hover {
   background-color: #4cff00;
   text-decoration: inherit;
@@ -224,6 +276,8 @@ p .value {
   border: solid 1px white;
 
 }
+
+
 
 
 /*
@@ -249,7 +303,7 @@ p .value {
 
 
 .card-title {
-  font-family: 'Staatliches', cursive, sans-serif;
+  font-family: 'Staatliches', sans-serif;
   font-size: 2.4em;
   color: #fff;
   padding: 10px 15px;
@@ -319,7 +373,7 @@ div .col-12 {
 }
 
 .hero-text h1 {
-  font-family: 'Staatliches', cursive, sans-serif;
+  font-family: 'Staatliches', sans-serif;
   text-transform: uppercase;
   color: #fff;
   font-size: 4em;
@@ -397,7 +451,7 @@ p#precio  {
 
 
 #footer .text-light {
-  font-family: 'Staatliches', cursive, sans-serif;
+  font-family: 'Staatliches', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
   margin-bottom: 15px;
