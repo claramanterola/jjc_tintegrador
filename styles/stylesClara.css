@@ -1,10 +1,76 @@
-/*headercss*/
-#principal body {
+/* -------------- HEADER -------------- */
+
+#principalbody {
   background-image: url(https://sportsbetmagazine.com/wp-content/uploads/2017/08/tennis.jpg);
   background-size: cover;
 }
 
-/*formularios*/
+.float-lg-right #main-button {
+  width: 150px;
+  margin-left: 50px;
+  background-color: #000;
+  color: #fff;
+}
+
+.float-lg-right #carritosuper {
+  font-size: 1.2em;
+}
+
+.navbar {
+  height: 100px;
+}
+
+
+
+/* -------------- NAV BAR -------------- */
+
+
+.navbar-brand {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  position: absolute;
+}
+
+#navbarSupportedContent {
+  margin: 0 auto;
+  padding-left: 150px;
+}
+
+
+.container-fluid a {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.nav-item {
+  font-family: 'Staatliches', cursive, sans-serif;
+  font-size: 1.1em;
+  padding-right: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.dropdown-item {
+  margin: 10px;
+  padding: 10px 10px 10px 20px;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a::hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+
+/* -------------- FORMS -------------- */
+
 #formsbody {
   font-family: 'Roboto', sans-serif;
   background-image: url(https://images5.alphacoders.com/816/816149.jpg);
@@ -14,9 +80,15 @@
 
 
 
-#main-title {
-  color: blue;
-  margin-top: 10px;
+/* -------------- TITLES AND DESCRIPTIONS -------------- */
+
+#main-title, #categories {
+  color: black;
+  margin-top: 60px;
+  font-family: 'Staatliches', cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  margin-bottom: 30px;
 }
 
 #description-title {
@@ -39,6 +111,7 @@
   display: block;
   border-radius: 5px;
 }
+
 .col-form {
   display: inline-flex;
 }
@@ -67,14 +140,15 @@ p .value {
 }
 
 
-
 .avatar {
   margin: 30px 0px 20px 0px;
 }
 
 
 
-/*BUTTONS*/
+
+/* -------------- BUTTONS -------------- */
+
 #social-button {
   margin: 20px 0px 20px 0px;
 }
@@ -116,31 +190,101 @@ p .value {
     width: 100%;
   }
 
-  #current-id {
-    margin-top: 20px;
-    font-size: 1em;
-    border-top: solid 1px grey;
-    padding-top: 25px;
-  }
+#current-id {
+  margin-top: 20px;
+  font-size: 1em;
+  border-top: solid 1px grey;
+  padding-top: 25px;
+}
 
-  #main-button {
-    font-family: 'Roboto', sans-serif;
-    background-color: black;
-    font-size: 0.8em;
-    letter-spacing: 0.2em;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    text-transform: uppercase;
-    margin: 10px 0px 10px 0px;
-    width: 100%;
-  }
-/*Card*/
+#main-button {
+  font-family: 'Staatliches', cursive, sans-serif;
+  background-color: #fff;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: none;
+  text-transform: uppercase;
+  text-decoration: inherit;
+  margin: 10px 0px 10px 0px;
+  width: 300px;
+  border: none;
+}
+
+#main-button::hover {
+  background-color: #4cff00;
+  text-decoration: inherit;
+  color: inherit;
+}
+
+
+#main-button::selection {
+  background-color: none;
+  border: solid 1px white;
+
+}
+
+
+/*
+.conoce {
+  font-family: 'Staatliches', cursive, sans-serif;
+  width: 300px;
+  background-color: #fff;
+  height: 45px;
+  color: #000;
+  font-size: 1em;
+  border-radius: none;
+}
+*/
+
+
+
+
+/* -------------- CARDS -------------- */
+
+.product-card {
+  padding: 0px;
+}
+
+
+.card-title {
+  font-family: 'Staatliches', cursive, sans-serif;
+  font-size: 2.4em;
+  color: #fff;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: inherit;
+  margin: 10px 0px 10px 0px;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.card-body h5 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.card-body #main-button {
+  position: absolute;
+  top: 57%;
+  left: 71%;
+  width: 100px;
+  background: rgba(256, 256, 256, 0.7);
+}
+
+div .col-12 {
+  padding: 0px;
+}
+
+
 ::selection {
   background: #6A11EA;
   color: white;
 }
-
 
 
 .badge-use-case {
@@ -152,21 +296,51 @@ p .value {
   letter-spacing: 0.5px;
 }
 
-#introfoto{
-  background-image : url("Wilson_blade.jpg");
+
+#allCategories {
+  margin-bottom: 80px;
+}
+
+
+/* -------------- HERO IMAGE AND TEXT -------------- */
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("tennis-hero.jpg");
   background-size: cover;
   height: 90vh;
   position: relative;
 }
-.btn-introtexto{
 
-
+.hero-text {
+  width: 40%;
+  position: relative;
+  top: 30%;
+  left: 10%;
 }
 
-.introtexto{
-
-
+.hero-text h1 {
+  font-family: 'Staatliches', cursive, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 4em;
+  margin-bottom: 30px;
 }
+
+.hero-text p {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: lighter;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  width: 75%;
+}
+
+
+
+
+
 
 .elementostexto {
     position: absolute;
@@ -179,9 +353,11 @@ p .value {
     color: white;
     text-align: center;
 
-/*FAQ*/
 
 
+
+
+/* -------------- FAQS -------------- */
 
 }
 #faqbody {
@@ -207,8 +383,41 @@ p#precio  {
 }
 
 
+/* -------------- FOOTER -------------- */
 
-/*mediaqueries*/
+.page-footer {
+  background-color: #000;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+#footer .mx-4 {
+  margin-right: 200px;
+}
+
+
+#footer .text-light {
+  font-family: 'Staatliches', cursive, sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+#footer .list-unstyled a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
+.row .fab {
+  font-size: 2em;
+  padding-top: 20px;
+}
+
+
+
+/* -------------- MEDIA QUERIES -------------- */
 
 @media only screen and (max-width: 360px) {
   .main-content {
@@ -263,10 +472,12 @@ p#precio  {
   height: 9vh;
 
 }
+/*
 #introfoto{
   visibility: hidden;
   display: none;
 }
+*/
 }
 @media only screen and (min-width: 768px) {
   .main-content {
@@ -284,15 +495,12 @@ p#precio  {
 .elementostexto{
   display:none;
   height: 9vh;
-
-}
-.elementostexto{
   visibility: hidden;
-  height: 9vh;
-
 }
-#introfoto{
+
+/*
+.hero-image{
   visibility: hidden;
   display: none;
 }
-}
+*/
