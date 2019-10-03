@@ -11,11 +11,11 @@
     <title>Carrito de compras</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <header>
       <?php
-      include("../header.html");
+      include_once "../header.html";
       ?>
-    </div>
+    </header>
 
     <div class="container">
     	<table id="cart" class="table table-hover table-condensed">

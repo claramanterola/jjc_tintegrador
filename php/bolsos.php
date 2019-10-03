@@ -14,11 +14,11 @@
     <title>Raquetas</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <header>
       <?php
-      include("../header.html");
+      include_once "../header.html";
       ?>
-    </div>
+    </header>
 
     <main>
       <section id="use-cases" class="py-4 my-4">

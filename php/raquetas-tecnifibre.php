@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -13,102 +13,34 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
 
-    <title>Raquetas</title>
+    <title>Raquetas BABOLAT</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <header id="header mx-auto" >
+    <header>
+      <?php
+      include_once "../header.html";
+      ?>
+    </header>
 
-          <div class="row">
-            <div class="col-12 p-0">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-               <a class="navbar-brand mb-3" href="index.html">
-                 <img width="120" class="image-fluid rounded float-left" src="img/img1.png" alt="JCJLOGO">
-               </a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-             </button>
-
-              <div class="collapse navbar-collapse align-middle" id="navbarSupportedContent">
-               <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle" href="raquetas.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Raquetas
-                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="raquetas-babolat.html">Babolat</a>
-                  <a class="dropdown-item" href="raquetas-tecnifibre.html">Tecnifibre</a>
-                  <a class="dropdown-item" href="raquetas-head.html">Head</a>
-                  <a class="dropdown-item" href="#">Wilson</a>
-                  <a class="dropdown-item" href="#">Yonex</a>
-
-                 </div>
-                </li>
-                <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle" href="pelotas.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Pelotas
-                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Head</a>
-                  <a class="dropdown-item" href="#">Penn</a>
-                  <a class="dropdown-item" href="#">Wilson</a>
-
-                </li>
-                <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle" href="cuerdas.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Cuerdas
-                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Luxilon</a>
-                  <a class="dropdown-item" href="#">Kirschbaum</a>
-                  <a class="dropdown-item" href="#">Solinco</a>
-                </li>
-                <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Bolsos
-                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="bolsos-babolat.html">Babolat</a>
-                  <a class="dropdown-item" href="#">Head</a>
-                  <a class="dropdown-item" href="#">Tecnifibre</a>
-                  <a class="dropdown-item" href="#">Wilson</a>
-                  <a class="dropdown-item" href="#">Yonex</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="accesorios.html">Accesorios</a>
-              </li>
-              </div>
-              <div class="float-lg-right">
-                <form class="form-inline my-2 my-lg-0 mx-3">
-                 <a href="carrito.html"><i class="fas fa-shopping-cart" style="color: green" id= 'carritosuper'></i></a>
-                <a class="btn btn-outline-success my-2 my-sm-2 mx-1" href="form_login.html" role="button">Usuario</a>
-                </form>
-               </div>
-             </nav>
-            </div>
-        </div>
-  </div>
-  </div>
-  </div>
-
-  </header>
-    </div>
       <section id="use-cases" class="py-4 my-4">
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 col-lg-4 text-center my-4">
               <div class="card" style="width: 18rem;">
-  <img src="https://surtenis.cl/wp-content/uploads/2019/03/Babolat-Pure-Aero-300g.jpg"class="card-img-top" alt="Babolatraquect">
+  <img src="https://www.tennisplaza.com/prodimages/24868-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
   <div class="card-body">
-    <h5 class="card-title">Babolat</h5>
+    <p class="card-text">TECNIFIBRE</p>
+    <h5 class="card-title">Fight 285 XTC</h5>
+
       <div class="container">
       <div class="row">
+
         <div class="col-12">
-          <a href="raquetas-babolat.html" class="btn btn-primary">Ver Todas</a>
-        </div>
+          <p>$ 13.000</p>
+            </div>
+            <div class="col-12">
+                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+            </div>
 
           </div>
         </div>
@@ -121,15 +53,19 @@
                   </div>
                   <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                     <div class="card" style="width: 18rem;">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/51XQISUGiVL._SL1001_.jpg"class="card-img-top" alt="Tecnifibreraquect">
+        <img src="https://www.tennisplaza.com/prodimages/24868-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
         <div class="card-body">
-          <h5 class="card-title">Tecnifibre</h5>
+          <p class="card-text">TECNIFIBRE</p>
+          <h5 class="card-title">Fight 290 XTC</h5>
+
             <div class="container">
             <div class="row">
               <div class="col-12">
-                  <a href="raquetas-tecnifibre.html" class="btn btn-primary">Ver Todas</a>
-              </div>
-
+                <p>$ 13.000</p>
+                  </div>
+                  <div class="col-12">
+                      <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                  </div>
                 </div>
               </div>
 
@@ -141,16 +77,19 @@
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                           <div class="card" style="width: 18rem;">
-              <img src="https://images-na.ssl-images-amazon.com/images/I/517ESm4LTPL._SL1001_.jpg"class="card-img-top" alt="Headracquect">
+              <img src="https://www.tennisplaza.com/prodimages/24868-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
               <div class="card-body">
-                <h5 class="card-title">Head</h5>
+                <p class="card-text">TECNIFIBRE</p>
+                <h5 class="card-title">Fight 300 XTC</h5>
 
                   <div class="container">
                   <div class="row">
                     <div class="col-12">
-                      <a href="raquetas-head.html" class="btn btn-primary">Ver Todas</a>
-                    </div>
-
+                      <p>$ 13.000</p>
+                        </div>
+                        <div class="col-12">
+                            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                        </div>
                       </div>
                     </div>
 
@@ -162,15 +101,19 @@
                               </div>
                               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                                 <div class="card" style="width: 18rem;">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/61IuIHUQV2L._SL1001_.jpg"class="card-img-top" alt="Wilsonracquet">
+                    <img src="https://www.tennisplaza.com/prodimages/24868-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
                     <div class="card-body">
-                      <h5 class="card-title">Wilson</h5>
+                      <p class="card-text">TECNIFIBRE</p>
+                      <h5 class="card-title">Fight 305 XTC</h5>
+
                         <div class="container">
                         <div class="row">
                           <div class="col-12">
-                            <a href="#" class="btn btn-primary">Ver Todas</a>
-                          </div>
-
+                            <p>$ 13.000</p>
+                              </div>
+                              <div class="col-12">
+                                  <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                              </div>
                             </div>
                           </div>
 
@@ -182,15 +125,19 @@
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                                       <div class="card" style="width: 18rem;">
-                          <img src="https://images-na.ssl-images-amazon.com/images/I/51bTYDo%2BX7L._SL1001_.jpg"class="card-img-top" alt="Yonexracquet">
+                          <img src="https://www.tennisplaza.com/prodimages/24868-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
                           <div class="card-body">
-                            <h5 class="card-title">Yonex</h5>
+                            <p class="card-text">TECNIFIBRE</p>
+                            <h5 class="card-title">Fight 315 XTC</h5>
+
                               <div class="container">
                               <div class="row">
                                 <div class="col-12">
-                                  <a href="#" class="btn btn-primary">Ver Todas</a>
-                                </div>
-
+                                  <p>$ 13.000</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                                    </div>
                                   </div>
                                 </div>
 
@@ -202,15 +149,19 @@
                                           </div>
                                           <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                                             <div class="card" style="width: 18rem;">
-                                <img src="https://cdn.shopify.com/s/files/1/0045/5236/0049/products/Wilson_Five_Two_BLX_Tennis_Racket_-_Sake_490x.jpg?v=1559728808"class="card-img-top" alt="Cuerdas">
+                                <img src="https://www.tennisplaza.com/prodimages/24868-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
                                 <div class="card-body">
-                                  <h5 class="card-title">Promociones</h5>
+                                  <p class="card-text">TECNIFIBRE</p>
+                                  <h5 class="card-title">Fight 320 XTC</h5>
+
                                     <div class="container">
                                     <div class="row">
                                       <div class="col-12">
-                                        <a href="#" class="btn btn-primary">Ver Todas</a>
-                                      </div>
-
+                                        <p>$ 13.000</p>
+                                          </div>
+                                          <div class="col-12">
+                                              <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                                          </div>
                                         </div>
                                       </div>
 
@@ -219,6 +170,10 @@
 
                                         </div>
                                             </div>
+                                                </div>
+
+
+
                                                 </div>
         </div>
       </section>
@@ -241,7 +196,7 @@
                   <a href="cuerdas.html" class="text-light font-weight-light">Cuerdas</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-light font-weight-light">Bolsos</a>
+                  <a href="bolsos.html" class="text-light font-weight-light">Bolsos</a>
                 </li>
                 <li>
                   <a href="accesorios.html" class="text-light font-weight-light">Accesorios</a>
@@ -253,10 +208,10 @@
               <h5 class="font-weight-light text-uppercase mt-3 mb-1"><a href="#!" class="text-light">Ayuda</a></h5>
               <ul class="list-unstyled">
                 <li>
-                  <a href="form_login.html" class="text-light font-weight-light">Usuario</a>
+                  <a href="#!" class="text-light font-weight-light">Usuario</a>
                 </li>
                 <li>
-                  <a href="faq.html" class="text-light font-weight-light">FAQ</a>
+                  <a href="#!" class="text-light font-weight-light">FAQ</a>
                 </li>
                 <li>
                   <a href="#!" class="text-light font-weight-light">Algo mas?</a>
@@ -282,7 +237,7 @@
             </div>
             <div class="col-md-2 mx-auto">
               <h5 class="font-weight-light text-uppercase mt-3 mb-1"><a href="#!" class="text-light">Seguinos</a></h5>
-              <div class="container">
+              <div class="conteiner">
                 <div class="row">
                   <div class="col-4 pl-2 pr-3 d-inline-block align-center">
                     <a href="http://facebook.com" class="btn-floating btn-fb shadow rounded">
