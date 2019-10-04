@@ -11,11 +11,11 @@
 
   <body id="principal">
 
-    <div class="container-fluid">
+    <header>
       <?php
-      include("../header.html");
+      include_once "../header.html";
       ?>
-    </div>
+    </header>
 
     <main>
       <container class="main-content">

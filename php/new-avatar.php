@@ -10,12 +10,12 @@
   </head>
   <body id="formsbody">
 
-    <div class="container-fluid">
+    <header>
       <?php
-      include("../header.html");
+      include_once "../header.html";
       ?>
-    </div>
-
+    </header>
+    
     <main>
 
       <section class="main-content mx-5 justify-content-center">

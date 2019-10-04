@@ -5,14 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
+    <link rel="stylesheet" href="styles/styles.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href= "img/img1.png" class="next-head">
-    <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
 
-    <title>Bolsos BABOLAT</title>
+    <title>Raquetas BABOLAT</title>
   </head>
   <body>
 
@@ -21,24 +22,27 @@
       include_once "../header.html";
       ?>
     </header>
-
+    
       <section id="use-cases" class="py-4 my-4">
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 col-lg-4 text-center my-4">
               <div class="card" style="width: 18rem;">
-  <img src="https://www.tennisplaza.com/prodimages/24966-DEFAULT-m.jpg"class="card-img-top" alt="Babolatbolso">
+  <img src="https://www.tennisplaza.com/prodimages/27735-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
   <div class="card-body">
-    <h5 class="card-title">Babolat</h5>
-    <p class="card-text">Toda la line Pure</p>
+    <p class="card-text">HEAD</p>
+    <h5 class="card-title">Graphene 360 Speed X </h5>
+
       <div class="container">
       <div class="row">
-        <div class="col-6">
-            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-        </div>
-        <div class="col-6">
-          <p>Precio <br>$ 4.000</p>
+
+        <div class="col-12">
+          <p>$ 13.999</p>
             </div>
+            <div class="col-12">
+                <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+            </div>
+
           </div>
         </div>
 
@@ -50,17 +54,18 @@
                   </div>
                   <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                     <div class="card" style="width: 18rem;">
-        <img src="https://www.tennisplaza.com/prodimages/26321-DEFAULT-s.jpg"class="card-img-top" alt="Tecnifibrebolso">
+        <img src="https://www.tennisplaza.com/prodimages/24167-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
         <div class="card-body">
-          <h5 class="card-title">Tecnifibre</h5>
-          <p class="card-text">Toda la line T-Fight</p>
+          <p class="card-text">HEAD</p>
+          <h5 class="card-title">Graphene 360 Speed Pro</h5>
+
             <div class="container">
             <div class="row">
-              <div class="col-6">
-                  <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-              </div>
-              <div class="col-6">
-                <p>Precio <br>$ 6.000</p>
+              <div class="col-12">
+                <p>$ 13.000</p>
+                  </div>
+                  <div class="col-12">
+                      <a href="#" class="btn btn-primary">Agregar al Carrito</a>
                   </div>
                 </div>
               </div>
@@ -73,17 +78,18 @@
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                           <div class="card" style="width: 18rem;">
-              <img src="https://www.tennisplaza.com/prodimages/27360-DEFAULT-s.jpg"class="card-img-top" alt="Headbolso">
+              <img src="https://www.tennisplaza.com/prodimages/24167-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
               <div class="card-body">
-                <h5 class="card-title">Head</h5>
-                <p class="card-text">Toda la linea Speed</p>
+                <p class="card-text">HEAD</p>
+                <h5 class="card-title">Graphene 360 Speed MP</h5>
+
                   <div class="container">
                   <div class="row">
-                    <div class="col-6">
-                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                    </div>
-                    <div class="col-6">
-                      <p>Precio <br>$ 7.000</p>
+                    <div class="col-12">
+                      <p>$ 13.000</p>
+                        </div>
+                        <div class="col-12">
+                            <a href="#" class="btn btn-primary">Agregar al Carrito</a>
                         </div>
                       </div>
                     </div>
@@ -96,17 +102,18 @@
                               </div>
                               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
                                 <div class="card" style="width: 18rem;">
-                    <img src="https://www.tennisplaza.com/prodimages/24164-DEFAULT-m.jpg"class="card-img-top" alt="Wilsonbolso">
+                    <img src="https://www.tennisplaza.com/prodimages/27356-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
                     <div class="card-body">
-                      <h5 class="card-title">Wilson</h5>
-                      <p class="card-text">Toda la linea Moisture</p>
+                      <p class="card-text">HEAD</p>
+                      <h5 class="card-title">Graphene 360+ Gravity PRO</h5>
+
                         <div class="container">
                         <div class="row">
-                          <div class="col-6">
-                              <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                          </div>
-                          <div class="col-6">
-                            <p>Precio <br>$ 7.000</p>
+                          <div class="col-12">
+                            <p>$ 13.000</p>
+                              </div>
+                              <div class="col-12">
+                                  <a href="#" class="btn btn-primary">Agregar al Carrito</a>
                               </div>
                             </div>
                           </div>
@@ -114,54 +121,61 @@
 
 
 
+                        </div>
                             </div>
                                 </div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-                                      <div class="card" style="width: 18rem;">
-                          <img src="https://www.tennisplaza.com/prodimages/22526-DEFAULT-m.jpg"class="card-img-top" alt="Yonexbolso">
-                          <div class="card-body">
-                            <h5 class="card-title">Yonex</h5>
-                            <p class="card-text">Toda la linea V-Core</p>
-                              <div class="container">
-                              <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-md-6 col-lg-4 text-center my-4">
+                                  <div class="card" style="width: 18rem;">
+                      <img src="https://www.tennisplaza.com/prodimages/27356-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
+                      <div class="card-body">
+                        <p class="card-text">HEAD</p>
+                        <h5 class="card-title">Graphene 360+ Gravity MP</h5>
+
+                          <div class="container">
+                          <div class="row">
+                            <div class="col-12">
+                              <p>$ 13.000</p>
+                                </div>
+                                <div class="col-12">
                                     <a href="#" class="btn btn-primary">Agregar al Carrito</a>
                                 </div>
-                                <div class="col-6">
-                                  <p>Precio <br>$ 7.000</p>
-                                    </div>
+                              </div>
+                            </div>
+
+
+
+
+                          </div>
+                              </div>
+                                  </div>
+                                  <div class="col-12 col-md-6 col-lg-4 text-center my-4">
+                                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.tennisplaza.com/prodimages/27356-DEFAULT-m.jpg"class="card-img-top" alt="Babolatraquect">
+                        <div class="card-body">
+                          <p class="card-text">HEAD</p>
+                          <h5 class="card-title">Graphene 360+ Gravity S</h5>
+
+                            <div class="container">
+                            <div class="row">
+                              <div class="col-12">
+                                <p>$ 13.000</p>
+                                  </div>
+                                  <div class="col-12">
+                                      <a href="#" class="btn btn-primary">Agregar al Carrito</a>
                                   </div>
                                 </div>
+                              </div>
 
-
-
-
-                                  </div>
-                                      </div>
-                                          </div>
-                                          <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-                                            <div class="card" style="width: 18rem;">
-                                <img src= "https://www.tennisplaza.com/prodimages/26319-DEFAULT-m.jpg"class="card-img-top" alt="PromoBolsos">
-                                <div class="card-body">
-                                  <h5 class="card-title">Promociones</h5>
-                                  <p class="card-text">Aprovecha nuestras ofertas</p>
-                                    <div class="container">
-                                    <div class="row">
-                                      <div class="col-6">
-                                          <a href="#" class="btn btn-primary">Agregar al Carrito</a>
-                                      </div>
-                                      <div class="col-6">
-                                        <p>Precio <br>$ 5.000</p>
-                                          </div>
-                                        </div>
-                                      </div>
 
 
 
 
                                         </div>
                                             </div>
+                                                </div>
+
+
+
                                                 </div>
         </div>
       </section>
@@ -175,19 +189,19 @@
               <h5 class="font-weight-light text-uppercase mt-3 mb-1"><a href="#!" class="text-light">Productos</a></h5>
               <ul class="list-unstyled">
                 <li>
-                  <a href="#!" class="text-light font-weight-light">Raquetas</a>
+                  <a href="raquetas.html" class="text-light font-weight-light">Raquetas</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-light font-weight-light">Pelotas</a>
+                  <a href="pelotas.html" class="text-light font-weight-light">Pelotas</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-light font-weight-light">Cuerdas</a>
+                  <a href="cuerdas.html" class="text-light font-weight-light">Cuerdas</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-light font-weight-light">Bolsos</a>
+                  <a href="bolsos.html" class="text-light font-weight-light">Bolsos</a>
                 </li>
                 <li>
-                  <a href="#!" class="text-light font-weight-light">Accesorios</a>
+                  <a href="accesorios.html" class="text-light font-weight-light">Accesorios</a>
                 </li>
               </ul>
 
