@@ -15,7 +15,7 @@
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
 
-    <title>Raquetas</title>
+    <title>JCJ | Raquetas</title>
   </head>
   <body>
 

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href= "img/img1.png" class="next-head">
 
-    <title>Raquetas BABOLAT</title>
+    <title>JCJ | Raquetas BABOLAT</title>
   </head>
   <body>
 

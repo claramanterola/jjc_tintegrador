@@ -12,7 +12,7 @@
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
 
-    <title>Bolsos BABOLAT</title>
+    <title>JCJ | Bolsos BABOLAT</title>
   </head>
   <body>
 

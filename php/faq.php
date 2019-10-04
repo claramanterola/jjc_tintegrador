@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href= "img/img1.png" class="next-head">
 
-    <title>Preguntas Frecuentes</title>
+    <title>JCJ | Preguntas Frecuentes</title>
   </head>
 
   <body id='faqbody'>

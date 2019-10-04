@@ -8,7 +8,7 @@
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
     
-    <title>Iniciá sesión</title>
+    <title>JCJ | Iniciar sesion</title>
   </head>
   <body id="formsbody">
 
@@ -31,27 +31,31 @@
         <!--FORM-->
         <!--Usuario-->
         <div class="main-form">
-          <form>
+          <form action="/loginValidation.php" method="POST">
             <div class="form-group">
-              <label for="name">Usuario</label>
-              <input type="text" class="form-control" id="user">
+              <label for="email">Usuario</label>
+              <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="jmdelpotro@mail.com">
             </div>
-        <!--Password-->
-          <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" class="form-control" id="password">
-            <label class="form-check-label" for="text"> <a href="#">Olvidé mi contraseña</a></label>
-          </div>
-          <!--Recordar usuario-->
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Recordar mi usuario</label>
-          </div>
+
+            <!--Password-->
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password">
+              <label class="form-check-label" for="text"> <a href="#">Olvidé mi contraseña</a></label>
+            </div>
+
+            <!--Recordar usuario-->
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Recordar mi usuario</label>
+            </div>
+        
+            <div id="create">
+              <input type="submit" id="main-button-black" value="Ingresar">
+            </div>
+          </form>
         </div>
-        <div id="create">
-          <button type="button" id="main-button-black"> <a href="form_login.html">Ingresar</a></button>
-        </div>
-        </form>
+
         <div class="new-user">
           <p id="current-id">¿Aún no tenés cuenta?</p>
           <button type="button" id="main-button-black"> <a href="form_registro.html">Creá tu usuario</a></button>
