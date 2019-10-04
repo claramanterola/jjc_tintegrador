@@ -29,7 +29,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-              <div class="card">
+              <div class="card" style="width: 18rem;">
                 <img src="https://surtenis.cl/wp-content/uploads/2019/03/Babolat-Pure-Aero-300g.jpg"class="card-img-top" alt="Babolatraquect">
                 <div class="card-body">
     <p class="card-text">BABOLAT</p>
@@ -55,7 +55,7 @@
               </div>
                   </div>
                   <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-                    <div class="card">
+                    <div class="card" style="width: 18rem;">
         <img src="https://surtenis.cl/wp-content/uploads/2019/03/Babolat-Pure-Aero-300g.jpg"class="card-img-top" alt="Babolatraquect">
         <div class="card-body">
           <p class="card-text">BABOLAT</p>
@@ -79,7 +79,7 @@
                     </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-                          <div class="card">
+                          <div class="card" style="width: 18rem;">
               <img src="https://images-na.ssl-images-amazon.com/images/I/61C6xTH9-oL._SL1001_.jpg"class="card-img-top" alt="Babolatraquect">
               <div class="card-body">
                 <p class="card-text">BABOLAT</p>
@@ -103,7 +103,7 @@
                           </div>
                               </div>
                               <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-                                <div class="card" >
+                                <div class="card" style="width: 18rem;">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/61C6xTH9-oL._SL1001_.jpg"class="card-img-top" alt="Babolatraquect">
                     <div class="card-body">
                       <p class="card-text">BABOLAT</p>
@@ -127,7 +127,7 @@
                                 </div>
                                     </div>
                                     <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-                                      <div class="card">
+                                      <div class="card" style="width: 18rem;">
                           <img src="https://images-na.ssl-images-amazon.com/images/I/51hIeA7NWrL._SL1001_.jpg"class="card-img-top" alt="Babolatraquect">
                           <div class="card-body">
                             <p class="card-text">BABOLAT</p>
@@ -151,7 +151,7 @@
                                       </div>
                                           </div>
                                           <div class="col-12 col-md-6 col-lg-4 text-center my-4">
-                                            <div class="card">
+                                            <div class="card" style="width: 18rem;">
                                 <img src="https://images-na.ssl-images-amazon.com/images/I/51ATU1oKy5L._SL1001_.jpg"class="card-img-top" alt="Babolatraquect">
                                 <div class="card-body">
                                   <p class="card-text">BABOLAT</p>

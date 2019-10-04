@@ -64,7 +64,7 @@
           <div class="card-body">
             <img src="../img/__categories/cat-pelotas.png" alt="pelotas de tenis">
             <h5 class="card-title">Pelotas</h5>
-            <a href="raquetas.php" id="main-button">Ver Más</a>
+            <a href="pelotas.php" id="main-button">Ver Más</a>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@
           <div class="card-body">
             <img src="../img/__categories/cat-cuerdas.png" alt="cuerdas de raquetas tenis">
             <h5 class="card-title">Cuerdas</h5>
-            <a href="raquetas.php" id="main-button">Ver Más</a>
+            <a href="cuerdas.php" id="main-button">Ver Más</a>
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@
           <div class="card-body">
             <img src="../img/__categories/cat-bolsos.png" alt="bolsos de tenis">
             <h5 class="card-title">Bolsos</h5>
-            <a href="raquetas.php" id="main-button">Ver Más</a>
+            <a href="bolsos.php" id="main-button">Ver Más</a>
           </div>
         </div>
       </div>
@@ -96,7 +96,7 @@
           <div class="card-body">
             <img src="../img/__categories/cat-accesorios.png" alt="accesorios">
             <h5 class="card-title">Accesorios</h5>
-            <a href="raquetas.php" id="main-button">Ver Más</a>
+            <a href="accesorios.php" id="main-button">Ver Más</a>
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@
           <div class="card-body">
             <img src="../img/__categories/cat-descuentos.png" alt="descuentos y promociones">
             <h5 class="card-title">Promociones</h5>
-            <a href="raquetas.php" id="main-button">Ver Más</a>
+            <a href="promociones.php" id="main-button">Ver Más</a>
           </div>
         </div>
       </div>
