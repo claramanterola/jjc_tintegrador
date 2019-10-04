@@ -12,7 +12,7 @@
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
 
-    <title>Accesorios</title>
+    <title>JCJ | Accesorios</title>
   </head>
   <body>
 

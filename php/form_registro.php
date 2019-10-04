@@ -15,7 +15,7 @@
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
 
-    <title>Crear cuenta</title>
+    <title>JCJ | Crear cuenta</title>
   </head>
   <body id="formsbody">
 
@@ -43,7 +43,7 @@
 
     <!--FORM-->
           <div class="main-form">
-            <form>
+            <form action="registerValidation.php" method="POST">
               <div class="form-group">
                 <label for="name">Nombre</label>
                 <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Juan Martín">
@@ -55,7 +55,7 @@
               </div>
 
               <div class="form-group">
-                <label for="mail">Email</label>
+                <label for="email">Email</label>
                 <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="jmdelpotro@mail.com">
               </div>
 
@@ -82,7 +82,7 @@
               </div>
 
               <div id="create">
-                <button type="button" class="btn btn-dark create">Crear cuenta</button>
+                <input type="submit" id="main-button-black" value="Crear cuenta">
               </div>
 
             </form>

@@ -15,7 +15,7 @@
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
 
-    <title>Preguntas Frecuentes</title>
+    <title>JCJ | Preguntas Frecuentes</title>
   </head>
 
   <body id='faqbody'>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
+<<<<<<< HEAD
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -16,6 +17,17 @@
   <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
 
     <title>Iniciá sesión</title>
+=======
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/stylesClara.css">
+    <link rel="shortcut icon" href= "img/img1.png" class="next-head">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+    
+    <title>JCJ | Iniciar sesion</title>
+>>>>>>> cfaddf6232d583bc6570fff70d7f853e95f65535
   </head>
   <body id="formsbody">
 
@@ -38,11 +50,12 @@
         <!--FORM-->
         <!--Usuario-->
         <div class="main-form">
-          <form>
+          <form action="/loginValidation.php" method="POST">
             <div class="form-group">
-              <label for="name">Usuario</label>
-              <input type="text" class="form-control" id="user">
+              <label for="email">Usuario</label>
+              <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="jmdelpotro@mail.com">
             </div>
+<<<<<<< HEAD
         <!--Password-->
           <div class="form-group">
             <label for="password">Password</label>
@@ -57,8 +70,28 @@
         </div>
         <div id="create">
           <button type="button" id="main-button-black"> <a href="form_login.php">Ingresar</a></button>
+=======
+
+            <!--Password-->
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password">
+              <label class="form-check-label" for="text"> <a href="#">Olvidé mi contraseña</a></label>
+            </div>
+
+            <!--Recordar usuario-->
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Recordar mi usuario</label>
+            </div>
+        
+            <div id="create">
+              <input type="submit" id="main-button-black" value="Ingresar">
+            </div>
+          </form>
+>>>>>>> cfaddf6232d583bc6570fff70d7f853e95f65535
         </div>
-        </form>
+
         <div class="new-user">
           <p id="current-id">¿Aún no tenés cuenta?</p>
           <button type="button" id="main-button-black"> <a href="form_registro.php">Creá tu usuario</a></button>

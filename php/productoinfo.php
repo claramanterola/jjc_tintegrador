@@ -15,7 +15,7 @@
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
 
-    <title>Raqueta Babolat Pure Drive</title>
+    <title>JCJ | Raqueta Babolat Pure Drive</title>
   </head>
   <body>
 
