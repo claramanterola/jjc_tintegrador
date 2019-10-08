@@ -1,3 +1,8 @@
+<?php
+  if($_POST) {
+    var_dump($_POST);
+  }
+?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
@@ -19,16 +24,10 @@
   </head>
   <body id="formsbody">
 
-    <header>
-      <?php
-      include_once "../header.html";
-      ?>
-    </header>
-
-    <container class="main-content">
-      <div id="row">
-        <div class="col-lg4 col-12">
+    <div class="main-content">
       <div class="container">
+        <div id="row">
+          <div class="col-lg4 col-12">
     <!--INTRO-->
           <div class="title-des">
             <h1 id="main-title">Creá tu cuenta</h1>
@@ -43,36 +42,36 @@
 
     <!--FORM-->
           <div class="main-form">
-            <form action="registerValidation.php" method="POST">
+            <form action="form_registro.php" method="post" enctype="multipart/form-data">
               <div class="form-group">
                 <label for="name">Nombre</label>
-                <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Juan Martín">
+                <input required type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp" placeholder="Nombre">
               </div>
 
               <div class="form-group">
                 <label for="lastname">Apellido</label>
-                <input type="lastname" class="form-control" id="lastname" aria-describedby="lastnameHelp" placeholder="Del Potro">
+                <input required type="lastname" class="form-control" name="lastname" id="lastname" aria-describedby="lastnameHelp" placeholder="Apellido">
               </div>
 
               <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="jmdelpotro@mail.com">
+                <input required type="email" class="form-control" name="email" id="mail" aria-describedby="emailHelp" placeholder="tumail@mail.com">
               </div>
 
               <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" id="password">
+                <input required type="password" name="password" class="form-control" id="password">
               </div>
 
               <div class="form-group">
                 <label for="telephone">Teléfono</label>
-                <input type="telephone" class="form-control" id="telephone" aria-describedby="telephoneHelp" placeholder="1166543322">
+                <input required type="telephone" class="form-control" name="telephone" id="telephone" aria-describedby="telephoneHelp" placeholder="">
                 <small id="telephoneHelp" class="form-text text-muted">Sin 0 y sin 15 para celulares</small>
               </div>
 
               <div class="form-group">
                 <label for="inputCity">Ciudad</label>
-                <select id="inputCity" class="form-control">
+                <select name="inputCity" id="inputCity" class="form-control">
                   <option selected>Seleccioná una opción</option>
                   <option>Capital Federal</option>
                   <option>Córdoba</option>
@@ -82,7 +81,7 @@
               </div>
 
               <div id="create">
-                <input type="submit" id="main-button-black" value="Crear cuenta">
+                <input type="submit" name="main-button" id="main-button" class="button-black" value="Crear cuenta">
               </div>
 
             </form>
@@ -92,26 +91,10 @@
         <!--LOGIN EXISTING ACCOUNT-->
           <p id="current-id">¿Ya tenés cuenta?</p>
             <button type="button" class="btn btn-main-azul">Iniciá sesión</button>
-
-      <!--ESTE DIV CIERRA EL CONTAINER-FLUID-->
           </div>
-        </content>
-      </div>
-    </div>
-
-
-      </div>
-    </div>
-
-
-  </body>
-  <!--FOOTER -->
-
-  <footer>
-    <?php
-    include_once "../footer.html";
-    ?>
-  </footer>
+      </div> <!-- .row -->
+    </div> <!-- .container -->
+  </div> <!-- .main-content -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

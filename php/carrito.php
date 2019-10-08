@@ -8,7 +8,6 @@
   <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
   <link rel="stylesheet" href="../styles/styles.css">
 
-<<<<<<< HEAD
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/styles.css">
@@ -16,14 +15,12 @@
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
     <title>Carrito de compras</title>
-=======
     <title>JCJ | Carrito de compras</title>
->>>>>>> cfaddf6232d583bc6570fff70d7f853e95f65535
   </head>
   <body>
     <header>
       <?php
-      include_once "../header.html";
+      include_once "../header.php";
       ?>
     </header>
 
@@ -81,7 +78,7 @@
 
     <footer>
       <?php
-      include_once "../footer.html";
+      include_once "../footer.php";
       ?>
     </footer>
 

@@ -16,7 +16,6 @@
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
     <title>Cuerdas</title>
-=======
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -27,13 +26,12 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="shortcut icon" href="../img/img1.png" class="next-head">
     <title>JCJ | Cuerdas</title>
->>>>>>> cfaddf6232d583bc6570fff70d7f853e95f65535
   </head>
   <body id="principal">
 
     <header>
       <?php
-      include_once "../header.html";
+      include_once "../header.php";
       ?>
     </header>
 
@@ -107,7 +105,7 @@
 
   <footer>
     <?php
-    include_once "../footer.html";
+    include_once "../footer.php";
     ?>
   </footer>
 

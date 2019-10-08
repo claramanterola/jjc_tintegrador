@@ -16,7 +16,7 @@
   <body id="principal">
     <div class="container-fluid">
      <?php
-     include("../header.html");
+     include("../header.php");
      ?>
    </div>
 
@@ -103,7 +103,7 @@
 
     <footer>
       <?php
-      include("../footer.html");
+      include("../footer.php");
       ?>
     </footer>
 

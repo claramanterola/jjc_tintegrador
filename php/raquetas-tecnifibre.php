@@ -20,7 +20,7 @@
   <body>
     <header>
       <?php
-      include_once "../header.html";
+      include_once "../header.php";
       ?>
     </header>
 
@@ -183,7 +183,7 @@
 
       <footer>
         <?php
-        include_once "../footer.html";
+        include_once "../footer.php";
         ?>
       </footer>
     <!-- Optional JavaScript -->
