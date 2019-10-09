@@ -5,10 +5,6 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
-  <link rel="stylesheet" href="../styles/styles.css">
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/styles.css">
@@ -16,18 +12,8 @@
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
 
-    <title>Iniciá sesión</title>
-=======
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/stylesClara.css">
-    <link rel="shortcut icon" href= "img/img1.png" class="next-head">
-    <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
-    
     <title>JCJ | Iniciar sesion</title>
->>>>>>> cfaddf6232d583bc6570fff70d7f853e95f65535
+
   </head>
   <body id="formsbody">
 
@@ -55,7 +41,7 @@
               <label for="email">Usuario</label>
               <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="jmdelpotro@mail.com">
             </div>
-<<<<<<< HEAD
+
         <!--Password-->
           <div class="form-group">
             <label for="password">Password</label>
@@ -70,7 +56,7 @@
         </div>
         <div id="create">
           <button type="button" id="main-button-black"> <a href="form_login.php">Ingresar</a></button>
-=======
+
 
             <!--Password-->
             <div class="form-group">
@@ -84,12 +70,11 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Recordar mi usuario</label>
             </div>
-        
+
             <div id="create">
               <input type="submit" id="main-button-black" value="Ingresar">
             </div>
           </form>
->>>>>>> cfaddf6232d583bc6570fff70d7f853e95f65535
         </div>
 
         <div class="new-user">

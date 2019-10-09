@@ -5,33 +5,14 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
-  <link rel="stylesheet" href="../styles/styles.css">
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/styles.css">
   <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
-    <title>Raquetas BABOLAT</title>
-=======
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
-    <link rel="stylesheet" href="styles/styles.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="shortcut icon" href= "img/img1.png" class="next-head">
-
     <title>JCJ | Raquetas BABOLAT</title>
->>>>>>> cfaddf6232d583bc6570fff70d7f853e95f65535
+
   </head>
   <body>
 
