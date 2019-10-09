@@ -42,6 +42,10 @@
   padding: 0px;
 }
 
+.container {
+  padding: 0px;
+}
+
 
 .nav-item {
   font-family: 'Staatliches', sans-serif;
@@ -95,13 +99,15 @@ a::hover {
 }
 
 .new-user {
-  margin-top: 40px;
+  margin-top: 100px;
   border-top: solid 1px grey;
-  padding-top: 20px;
+  width: 90%;
+  padding-top: 50px;
 }
 
 #create {
   margin-left: 20px;
+  margin-top: 30px;
 }
 
 
@@ -122,18 +128,16 @@ a::hover {
   font-weight: 300;
   letter-spacing: inherit;
   margin-bottom: 20px;
-  padding-left: 20px;
 }
 
-
-#main-content {
-  padding: 40px;
+.main-content {
+  padding: 10px;
   margin: 0 auto;
   margin-bottom: 40px;
-  margin-top: 20px;
+  margin-top: 40px;
   background-color: white;
-  height: 40%;
-  width: 40%;
+  /*height: 40%;*/
+  width: 90%;
   box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
   display: block;
   border-radius: 5px;
@@ -184,48 +188,58 @@ p .value {
 
 
 
-
 /* -------------- BUTTONS -------------- */
 
 #social-button {
   margin: 20px 0px 20px 0px;
 }
+
+/*
 .btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Staatliches', sans-serif;
   font-size: 0.8em;
   letter-spacing: 0.2em;
   padding: 10px 15px;
   border: none;
   text-transform: uppercase;
   margin: 10px 25px 10px 0px;
-  width: 100%;
+  width: 25%;
+  text-decoration: none;
   }
 
 .btn:hover {
     box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
 }
+*/
 
-.btn-main-azul {
-    background-color: #4267B2;
+#main-button-yellow {
+    font-family: 'Staatliches', sans-serif;
+    background-color: #D4DC00;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: none;
+    text-transform: uppercase;
+    text-decoration: inherit;
+    margin: 10px 0px 10px 0px;
+    width: 300px;
+    border: none;
+  }
+
+
+
+.google {
+    background-color: #DFDFDF;
     font-size: 0.8em;
     letter-spacing: 0.2em;
-    color: #FFFFFF !important;
+    color: #000;
     padding: 10px 0px;
     border: none;
     text-align: center;
     text-transform: uppercase;
     width: 100%;
     border-radius: 3px;
-  }
-
-.google {
-    background-color: #DFDFDF;
-    font-size: 0.8em;
-    color: black;
-    padding: 10px 0px;
-    border: none;
-    text-align: center;
-    width: 100%;
   }
 
 #current-id {
@@ -252,7 +266,7 @@ p .value {
   border: none;
 }
 
-#main-button-black {
+.btn, #main-button-black {
   font-family: 'Staatliches', sans-serif;
   background-color: #000;
   font-size: 1em;
@@ -272,6 +286,7 @@ p .value {
   background-color: #4cff00;
   text-decoration: inherit;
   color: inherit;
+  box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.39);
 }
 
 
@@ -281,8 +296,24 @@ p .value {
 
 }
 
+.pass-group {
+  padding-left: 20px;
+}
 
-
+.modal-body .btn-link {
+  font-family: 'Staatliches', sans-serif;
+  background-color: rgba(256, 256, 256, 0);
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  color: blue;
+  padding: 10px 15px;
+  border-radius: none;
+  text-transform: uppercase;
+  text-decoration: inherit;
+  margin: 10px 0px 10px 0px;
+  width: 300px;
+  border: none;
+}
 
 /*
 .conoce {
@@ -396,10 +427,6 @@ div .col-12 {
 }
 
 
-
-
-
-
 .elementostexto {
     position: absolute;
     right: 75%;
@@ -410,19 +437,17 @@ div .col-12 {
     padding: 30px;
     color: white;
     text-align: center;
-
-
-
+}
 
 
 /* -------------- FAQS -------------- */
 
-}
+
 #faqbody {
   background-image: url(http://www.whblisshotel.com/en/pic/gif/1438223709.jpg);
   background-size: cover;
-
 }
+
 .panel-body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
@@ -431,6 +456,7 @@ div .col-12 {
 .panel {
   border-bottom: solid 1px grey;
 }
+
 .collapse {
   text-decoration: none;
 }
@@ -485,24 +511,21 @@ p#precio  {
   width: 100%;
   box-shadow: 2px 2px 19px -5px rgba(135,135,135,1);
   border-radius: 5px;
-}
-  .elementostexto{
+  }
+  .elementostexto {
     display:none;
   }
-#introfoto{
+  #introfoto {
     visibility: hidden;
     display: none;
   }
-
-  .elementostexto{
+  .elementostexto {
     display:none;
     height: 9vh;
-
   }
-  .elementostexto{
+  .elementostexto {
     visibility: hidden;
     height: 9vh;
-
   }
 }
 
