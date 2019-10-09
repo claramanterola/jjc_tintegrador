@@ -27,7 +27,7 @@
           <div class="row">
             <div class="col-12 col-md-6 col-lg-4 text-center my-4">
               <div class="card" style="width: 18rem;">
-  <img src="https://shop.wilson.com/media/catalog/product/cache/38/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/4/c/4c7af469b0c10ef0a1c43d871d3e89818d8f6759_wrz539302_nfl_dallas_cowboys_team_dampeners_2pack_1.jpg" class="card-img-top" alt="Babolatraquect">
+                <img src="https://shop.wilson.com/media/catalog/product/cache/38/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/4/c/4c7af469b0c10ef0a1c43d871d3e89818d8f6759_wrz539302_nfl_dallas_cowboys_team_dampeners_2pack_1.jpg" class="card-img-top" alt="Babolatraquect">
   <div class="card-body">
     <h5 class="card-title">Antivibradores</h5>
       <div class="container">

@@ -9,10 +9,17 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<<<<<<< HEAD
 
   <link rel="stylesheet" href="../styles/stylesClara.css">
   <link rel="shortcut icon" href= "../img/__logo/flavicon.ico" class="next-head">
 
+=======
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
+>>>>>>> 944daecd3aa0970f96ed96d8cf9cb979187dbe7d
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
 

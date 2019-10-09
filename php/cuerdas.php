@@ -1,20 +1,19 @@
 <!doctype html>
 <html lang="en">
-<<<<<<< HEAD
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
-  <link rel="stylesheet" href="../styles/styles.css">
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/styles.css">
   <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+<<<<<<< HEAD
+    <title>JCJ | Cuerdas</title>
+
+=======
     <title>Cuerdas</title>
   <head>
     <!-- Required meta tags -->
@@ -26,6 +25,7 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="shortcut icon" href="../img/img1.png" class="next-head">
     <title>JCJ | Cuerdas</title>
+>>>>>>> 0ef5f45791cddbe3541cf6cc257997e8831b30f6
   </head>
   <body id="principal">
 
