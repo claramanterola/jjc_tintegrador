@@ -1,17 +1,30 @@
 <?php
-  if($_POST) {
-    var_dump($_POST);
+require("funciones.php");
+require("encrip.php");
+
+
+  $users = obtenerUsuarios();
+
+  if($_POST){
+    $user = crearUsuario();
+    $id = count($users) + 1;
+    $user["id"] = $id;
+    $user["profilePicture"] = "pictures/$id.jpg";
+    $users[] = $user;
+    $json = json_encode($users);
+    file_put_contents("users.json", $json);
+    $file = $_FILES["uploadAvatar"];
+    move_uploaded_file($file["tmp_name"], "pictures/$id.jpg");
   }
+
 ?>
+
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
-  <link rel="stylesheet" href="../styles/styles.css">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -23,6 +36,9 @@
     <title>JCJ | Crear cuenta</title>
   </head>
   <body id="formsbody">
+    <header>
+
+    </header>
 
     <div class="main-content">
       <div class="container">
@@ -42,7 +58,9 @@
 
     <!--FORM-->
           <div class="main-form">
-            <form action="form_registro.php" method="post" enctype="multipart/form-data">
+            <form action="" method="post" enctype="multipart/form-data">
+              <input type='hidden' name='submitted' id='submitted' value='1'/>
+
               <div class="form-group">
                 <label for="name">Nombre</label>
                 <input required type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp" placeholder="Nombre">
@@ -80,6 +98,12 @@
                 </select>
               </div>
 
+              <div class="form-group">
+                <label for="uploadAvatar">Foto de perfil</label>
+                <input required type="file" class="form-control-file" name="uploadAvatar" id="uploadAvatar">
+                <small id="uploadAvatar" class="form-text text-muted">No debe pesar más de 20mb, en formato .jpg, .jpeg, .png <br></small>
+              </div>
+
               <div id="create">
                 <input type="submit" name="main-button" id="main-button" class="button-black" value="Crear cuenta">
               </div>
@@ -91,11 +115,13 @@
         <!--LOGIN EXISTING ACCOUNT-->
           <p id="current-id">¿Ya tenés cuenta?</p>
             <button type="button" class="btn btn-main-azul">Iniciá sesión</button>
-          </div>
-      </div> <!-- .row -->
-    </div> <!-- .container -->
-  </div> <!-- .main-content -->
+            </div>
+        </div> <!-- .row -->
+      </div> <!-- .container -->
+    </div> <!-- .main-content -->
+    <footer>
 
+    </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

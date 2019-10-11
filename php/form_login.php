@@ -1,35 +1,6 @@
 <?php
-  require_once('controladores/funciones.php');
-  require_once('helpers.php');
   if($_POST){
-    $errores = validarLogin($_POST);
-    if(count($errores)==0){
-      $usuario = buscarPorEmail($_POST['email']);
-      if($usuario==null){
-        $errores['email']="Usuario no encontrado...";
-      }else{
-        //Desde aquí incio mi revisión a ver que ocurre con los contenidos de las variables y tratar de ver que ocurre
-        //Aquí ví que el dato viene bien, es decir el password hasheado
-        //dd($usuario['password']);
-        //Ahora veo que trae esta variable  y noto que trae el dato correctamente
-        //dd($_POST['password']);
-        //Aquí estaba el error a la función password_verify, se le debe psar primero el dato no hasheado y luego el hasheado, ese fue mi error, lo habia pasado al contrario
-        if(password_verify($_POST['password'],$usuario['password'])===false){
-          $errores['password']="Datos inválidos...";
-        }else{
-          seteoUsuario($usuario,$_POST);
-          if(validarUsuario()){
-            header('location:perfil.php');
-            exit;
-          }else{
-            header('location:login.php');
-            exit;
-          }
-
-        }
-
-      }
-    }
+    echo "se hizo un Post";exit;
   }
 
 ?>
@@ -66,7 +37,7 @@
 
     <header>
       <?php
-      include_once "../header.html";
+      include_once "../header.php";
       ?>
     </header>
 
@@ -83,15 +54,15 @@
         <!--FORM-->
         <!--Usuario-->
         <div class="main-form">
-          <form action="loginValidation.php" method="POST">
+          <form action="" method="post" enctype="multipart/form-data">
             <div class="form-group">
               <label for="email">Usuario</label>
-              <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="jmdelpotro@mail.com">
+              <input type="email" class="form-control" name="name" id="mail" aria-describedby="emailHelp" placeholder="jmdelpotro@mail.com">
             </div>
         <!--Password-->
           <div class="form-group">
             <label for="password">Password</label>
-            <input type="password" class="form-control" id="password">
+            <input type="password" class="form-control" name="password" id="password">
             <label class="form-check-label" for="text"> <a href="#">Olvidé mi contraseña</a></label>
           </div>
           <!--Recordar usuario-->
@@ -121,7 +92,7 @@
 
     <footer>
       <?php
-      include_once "../footer.html";
+      include_once "../footer.php";
       ?>
     </footer>
 
