@@ -22,13 +22,44 @@ require("encrip.php");
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
+<<<<<<< HEAD
   <?php
     include ("link.php");
   ?>
+=======
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+=======
+  <link rel="stylesheet" href="../styles/stylesClara.css">
+  <link rel="shortcut icon" href= "../img/__logo/flavicon.ico" class="next-head">
+
+=======
+>>>>>>> 4aa5df1e484902fc9b2200c5107edd78ccc44942
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
+>>>>>>> 944daecd3aa0970f96ed96d8cf9cb979187dbe7d
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+
+>>>>>>> 17663a54b76fb025665374ab541f9a37f334a8bc
   <title>JCJ | Crear cuenta</title>
 </head>
 
   <body id="formsbody">
+<<<<<<< HEAD
+=======
+    <header>
+
+    </header>
+
+    <header>
+>>>>>>> 17663a54b76fb025665374ab541f9a37f334a8bc
       <?php
       include ("navbar.php");
       ?>
@@ -108,12 +139,29 @@ require("encrip.php");
 
         <!--LOGIN EXISTING ACCOUNT-->
           <p id="current-id">¿Ya tenés cuenta?</p>
+<<<<<<< HEAD
             <button type="button" id="main-button-black">Iniciá sesión</button>
+=======
+            <button type="button" class="btn btn-main-azul">Iniciá sesión</button>
+>>>>>>> 17663a54b76fb025665374ab541f9a37f334a8bc
             </div>
         </div> <!-- .row -->
       </div> <!-- .container -->
     </div> <!-- .main-content -->
+<<<<<<< HEAD
+=======
+    <footer>
+>>>>>>> 17663a54b76fb025665374ab541f9a37f334a8bc
 
+<<<<<<< HEAD
+    </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/addc1ca592.js"></script>
+=======
   <!--FOOTER -->
     <?php
     include ("footer.php");
@@ -123,5 +171,6 @@ require("encrip.php");
     include ("link2.php");
   ?>
 
+>>>>>>> 4aa5df1e484902fc9b2200c5107edd78ccc44942
   </body>
 </html>

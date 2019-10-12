@@ -1,7 +1,14 @@
 <?php
+<<<<<<< HEAD
   if($_POST){
     echo "se hizo un Post";
 
+=======
+<<<<<<< HEAD
+  if($_POST){
+    echo "se hizo un Post";exit;
+=======
+>>>>>>> 17663a54b76fb025665374ab541f9a37f334a8bc
   require_once('controladores/funciones.php');
   require_once('helpers.php');
   
@@ -37,6 +44,7 @@
           }
 	     }
     }
+>>>>>>> 4aa5df1e484902fc9b2200c5107edd78ccc44942
   }
 ?>
 
@@ -55,8 +63,38 @@
     include_once "../header.php";
     ?>
   </header>
+<<<<<<< HEAD
 
     <div class="main-content">
+=======
+=======
+<<<<<<< HEAD
+    <title>JCJ | Iniciar sesion</title>
+
+=======
+    <title>Iniciá sesión</title>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/stylesClara.css">
+    <link rel="shortcut icon" href= "img/img1.png" class="next-head">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+
+    <title>JCJ | Iniciar sesion</title>
+>>>>>>> 0ef5f45791cddbe3541cf6cc257997e8831b30f6
+  </head>
+  <body id="formsbody">
+
+    <header>
+      <?php
+      include_once "../header.php";
+      ?>
+    </header>
+>>>>>>> 944daecd3aa0970f96ed96d8cf9cb979187dbe7d
+
+    <container class="main-content">
+>>>>>>> 17663a54b76fb025665374ab541f9a37f334a8bc
       <div id="row">
         <div class="col-lg6 col-12">
 
@@ -69,20 +107,38 @@
         <!--FORM-->
         <!--Usuario-->
         <div class="main-form">
+<<<<<<< HEAD
           <form action="" method="post" enctype="multipart/form-data">
             <div class="form-group">
               <label for="email">Usuario</label>
               <input type="email" class="form-control" name="name" id="mail" aria-describedby="emailHelp" placeholder="jmdelpotro@mail.com">
+=======
+<<<<<<< HEAD
+          <form action="" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="email">Usuario</label>
+              <input type="email" class="form-control" name="name" id="mail" aria-describedby="emailHelp" placeholder="jmdelpotro@mail.com">
+=======
+         <form action="loginValidation.php" method="POST">
+            <div class="form-group">
+              <label for="email">Usuario/email</label>
+              <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="jmdelpotro@mail.com" required>
+>>>>>>> 4aa5df1e484902fc9b2200c5107edd78ccc44942
+>>>>>>> 17663a54b76fb025665374ab541f9a37f334a8bc
             </div>
 
         <!--Password-->
           <div class="pass-group">
             <label for="password">Password</label>
+<<<<<<< HEAD
+            <input type="password" class="form-control" name="password" id="password">
+=======
             <input type="password" class="form-control" id="password" name="password" required> 
             <small id="passHelp" class="form-text text-muted">Debe contener al menos 6 caracteres</small>
           
           <!--
           BOTON ANTERIOR
+>>>>>>> 4aa5df1e484902fc9b2200c5107edd78ccc44942
             <label class="form-check-label" for="text"> <a href="#">Olvidé mi contraseña</a></label>
           -->
 
@@ -131,6 +187,40 @@
       include ("footer.php");
     ?>
 
+<<<<<<< HEAD
+=======
+        <div class="new-user">
+          <p id="current-id">¿Aún no tenés cuenta?</p>
+          <button type="button" id="main-button-black" name="new-user" background-color="#D4DC00"><a href="form_registro.php">Creá tu usuario</a></button>
+        </div>
+      </div>
+    </container>
+    <!--A C Á   T E R M I N A   E L   F O R M U L A R I O-->
+
+<<<<<<< HEAD
+
+
+    <!--FOOTER -->
+
+    <footer>
+      <?php
+      include_once "../footer.php";
+      ?>
+    </footer>
+
+=======
+>>>>>>> 4aa5df1e484902fc9b2200c5107edd78ccc44942
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/addc1ca592.js"></script>
+    </body>
+
+  <!--FOOTER 
+  <footer>
+>>>>>>> 17663a54b76fb025665374ab541f9a37f334a8bc
     <?php
       include ("link2.php");
     ?>
