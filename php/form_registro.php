@@ -1,41 +1,37 @@
 <?php
-  if($_POST) {
-    var_dump($_POST);
+require("funciones.php");
+require("encrip.php");
+
+
+  $users = obtenerUsuarios();
+
+  if($_POST){
+    $user = crearUsuario();
+    $id = count($users) + 1;
+    $user["id"] = $id;
+    $user["profilePicture"] = "pictures/$id.jpg";
+    $users[] = $user;
+    $json = json_encode($users);
+    file_put_contents("users.json", $json);
+    $file = $_FILES["uploadAvatar"];
+    move_uploaded_file($file["tmp_name"], "pictures/$id.jpg");
   }
+
 ?>
+
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<<<<<<< HEAD
-
-  <link rel="stylesheet" href="../styles/stylesClara.css">
-  <link rel="shortcut icon" href= "../img/__logo/flavicon.ico" class="next-head">
-
-=======
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="../styles/styles.css">
-  <link rel="shortcut icon" href= "../img/img1.png" class="next-head">
->>>>>>> 944daecd3aa0970f96ed96d8cf9cb979187dbe7d
-  <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
-
+  <?php
+    include ("link.php");
+  ?>
   <title>JCJ | Crear cuenta</title>
-  </head>
+</head>
 
   <body id="formsbody">
-
-    <header>
       <?php
-      include_once "../header.php";
+      include ("navbar.php");
       ?>
-    </header>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <div class="main-content">
       <div class="container">
@@ -50,14 +46,15 @@
 
     <!--BUTTONS-->
           <div id="social-button">
-            <button type="button" id="main-button-google" name="login-google"><a href="form_registro.php">Ingresar con Google</a></button>
-
-            <button type="button" class="main-button-black facebook">Ingresar con Facebook</button>
+            <button type="button" id="main-button-black" name="login-google"><a href="form_registro.php">Ingresar con Google</a></button>
+            <button type="button" id="main-button-black">Ingresar con Facebook</button>
           </div>
 
     <!--FORM-->
           <div class="main-form">
-            <form action="form_registro.php" method="post" enctype="multipart/form-data">
+            <form action="" method="post" enctype="multipart/form-data">
+              <input type='hidden' name='submitted' id='submitted' value='1'/>
+
               <div class="form-group">
                 <label for="name">Nombre</label>
                 <input required type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp" placeholder="Nombre">
@@ -95,8 +92,14 @@
                 </select>
               </div>
 
+              <div class="form-group">
+                <label for="uploadAvatar">Foto de perfil</label>
+                <input required type="file" class="form-control-file" name="uploadAvatar" id="uploadAvatar">
+                <small id="uploadAvatar" class="form-text text-muted">No debe pesar más de 20mb, en formato .jpg, .jpeg, .png <br></small>
+              </div>
+
               <div id="create">
-                <input type="submit" name="main-button" id="main-button" class="button-black" value="Crear cuenta">
+                <input type="submit" name="main-button" id="main-button-black" class="button-black" value="Crear cuenta">
               </div>
 
             </form>
@@ -105,26 +108,20 @@
 
         <!--LOGIN EXISTING ACCOUNT-->
           <p id="current-id">¿Ya tenés cuenta?</p>
-            <button type="button" class="btn btn-main-azul">Iniciá sesión</button>
-          </div>
-      </div> <!-- .row -->
-    </div> <!-- .container -->
-  </div> <!-- .main-content -->
+            <button type="button" id="main-button-black">Iniciá sesión</button>
+            </div>
+        </div> <!-- .row -->
+      </div> <!-- .container -->
+    </div> <!-- .main-content -->
 
   <!--FOOTER -->
-  <footer>
     <?php
-    include_once "../footer.php";
+    include ("footer.php");
     ?>
-  </footer>
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/addc1ca592.js"></script>
+  <?php
+    include ("link2.php");
+  ?>
 
   </body>
 </html>

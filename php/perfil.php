@@ -1,8 +1,14 @@
 <?php
-include("funciones.php")
- ?>
-<!DOCTYPE html>
-<html lang="es" dir="ltr">
+require("funciones.php");
+
+$users =obtenerUsuarios();
+$email = $_GET["email"];
+$usuarioBuscado = obtenerUsuarioPorEmail($email);
+
+?>
+
+
+<html>
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -18,32 +24,33 @@ include("funciones.php")
     <title>JCJ | Mi perfil</title>
 
   </head>
-
   <body id="formsbody">
 
     <header>
 
-
     </header>
-    <?php include_once "../header.php";?>
+
 
     <body>
     <div class="container-fluid">
-      <?php if ($usuarioBuscado != null): ?>
-      <img class="avatar" src="<?= $usuarioBuscado["profilePicture"] ?>" />
-      <h1><?= $usuarioBuscado["name"] ?></h1>
-    <?php else: ?>
-      <p>No se encontró el usuario con email: <?= $email ?></p>
-    <?php endif; ?>
+      <div id="formContainer" class="row align-items-center">
+        <div class="col-sm-6 offset-md-3 text-center">
+          <?php if ($usuarioBuscado != null):  ?>
+            <img src="<?= $usuarioBuscado["uploadAvatar"] ?>">
+          <?php else: ?>
+            <p>No se encontro el usuario con el email : <?= $email ?></p>
+          <?php endif; ?>
+
+        </div>
       </div>
 
     </div>
+
+
 <!--FOOTER -->
 
 <footer>
-  <?php
-  include_once "../footer.php";
-  ?>
+
 </footer>
 
 
