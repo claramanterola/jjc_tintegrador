@@ -1,10 +1,14 @@
 <?php
-require("funciones.php");
+require_once("funciones.php");
 
-$users =obtenerUsuarios();
-$email = $_GET["email"];
-$usuarioBuscado = obtenerUsuarioPorEmail($email);
+// $users = obtenerUsuarios();
+// $email = $_GET["email"];
+// $usuarioBuscado = obtenerUsuarioPorEmail($email);
 
+if(!isset($_SESSION["email"])) {
+  header("location:form_login.php");
+  exit;
+}
 ?>
 
 
@@ -35,11 +39,16 @@ $usuarioBuscado = obtenerUsuarioPorEmail($email);
     <div class="container-fluid">
       <div id="formContainer" class="row align-items-center">
         <div class="col-sm-6 offset-md-3 text-center">
-          <?php if ($usuarioBuscado != null):  ?>
-            <img src="<?= $usuarioBuscado["uploadAvatar"] ?>">
+          <?php if ($_SESSION != null):  ?>
+            <img src="<?= $_SESSION["avatar"] ?>">
           <?php else: ?>
             <p>No se encontro el usuario con el email : <?= $email ?></p>
           <?php endif; ?>
+          <h1>Bienvenide <?= $_SESSION["name"] ?></h1>
+          <h2 class="display-3"><?= $_SESSION["email"] ?></h1>
+          <h3 class="display-4"><?= $_SESSION["telephone"] ?></h1>
+          <h4 class="display-5"><?= $_SESSION["inputCity"] ?></h1>
+
 
         </div>
       </div>
